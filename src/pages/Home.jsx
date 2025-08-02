@@ -2,6 +2,8 @@
  const Home = () => {
      const navigate = useNavigate();
      return (
+     )
+ }
 -        <div style={{ background: '#f8f9fa', minHeight: '100vh' }}>
 -            <Container className="py-5">
 +        <div style={{ background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', minHeight: '100vh' }}>
@@ -118,6 +120,9 @@
                  </Row>
                  <Row className="g-4 mb-5">
                      {features.map((f, idx) => (
+)
+)
+}
 -                        <Col key={idx} xs={12} md={6} lg={3}>
 -                            <Card className="h-100 shadow-sm text-center">
 -                                <Card.Body>
